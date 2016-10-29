@@ -1,0 +1,212 @@
+body{
+  background : #071013;
+}
+
+#window {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -30px;
+}
+#window > .logo {
+  display: block;
+  margin: 0 auto;
+  display: relative;
+  top: 200px;
+}
+
+.logo.google-chrome {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  height: 210px;
+  width: 210px;
+  z-index: 1;
+  
+}
+.logo.google-chrome .center {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background: #4885ed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80px;
+  width: 80px;
+  margin-top: -41px;
+  margin-left: -40px;
+  z-index: 10;
+}
+.logo.google-chrome .circle-space {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  background: white;
+  top: 50%;
+  left: 50%;
+  height: 94px;
+  width: 94px;
+  margin-top: -48px;
+  margin-left: -47px;
+  z-index: 5;
+}
+.logo.google-chrome .section-1{
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+    content: " ";
+  background: #db3236;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 212px;
+    height: 84px;
+}
+.logo.google-chrome .section-2 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    content: " ";
+  background: #f4c20d;
+    position: absolute;
+    top: 72px;
+    left: 73px;
+    width: 138px;
+    height: 138px;
+}
+.logo.google-chrome .section-3 {
+  -webkit-transform: rotate(131deg);
+  -moz-transform: rotate(131deg);
+  -ms-transform: rotate(131deg);
+  -o-transform: rotate(131deg);
+  transform: rotate(131deg);
+  content: " ";
+  background: #3cba54;
+  position: absolute;
+  top: 87px;
+  left: -138px;
+  width: 243px;
+  height: 180px;
+}
+
+#score {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -150px;
+}
+#score > h2{
+  font-size: 40px;
+  color: #fff; 
+}
+
+#game_btns{
+  display : block;
+  text-align: center;
+  
+}
+
+#start, #stop{
+  color: #000;
+  font-size: 32px;
+  position: relative;
+  text-align: center;
+  top: 250px;
+  background: ghostwhite;
+  width: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-dialog{
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#strict-settings{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 120px;
+
+}
+
+#strict{
+  color: #fff;
+}
+
+#info-section{
+  text-align: center;
+  position: relative;
+  top: 270px;  
+}
+
+#info{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#modal-dialog-info{
+  top: 50px;
+}
+.myModalInfo > div > div > div.modal-header > h4{
+  font-size: 28px;
+}
+#infoMsg{
+  text-align: center;
+}
+#infoStart{
+  color: green;
+  font-size: 18px;
+}
+#infoStop{
+  color: red;
+  font-size: 18px;
+}
+#infoOnOff{
+  color: blue;
+  font-size: 18px;
+}
+#infoOn{
+  font-size: 18px;
+  color: green;
+}
+#infoOff{
+  font-size: 18px;
+  color: red;
+}
+
+#author{
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+#author>p{
+  font-size: 16px;
+}
+#name{
+  color: #db3236;
+  text-decoration: none;
+}

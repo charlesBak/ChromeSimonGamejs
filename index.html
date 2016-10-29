@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Google Chrome Simon Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+      <div id="window">
+      <div class="google-chrome logo">
+        <span id="red" class="color section-1" ></span>
+        <span id="yellow" class="color section-2"></span>
+        <span id="green" class="color section-3" ></span>
+        <span class="circle-space"></span>
+        <span id="blue" class="color center" ></span>
+      </div>
+ 
+ <div id="score">
+     <h2 id="displayCount">0</h2>
+ </div>
+   
+ <div id="game_btns">
+     <div id="start">Start</div>
+     <div id="stop">Stop</div>
+ </div>
+ 
+<div id="info-section">
+        <span><i id="info" class="fa fa-info-circle" aria-hidden="true" onclick="showGameInfo()"></i>
+        </span>
+</div>
+  
+
+<div id="strict-settings">
+      <span id="strict">STRICT&nbsp;<input type="checkbox" checked data-toggle="toggle-disabled" data-style="ios"></span>
+      </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Congratulations!</h4>
+        </div>
+        <div class="modal-body">
+          <p id="winMsg"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal" id="no" onclick="newStart()">NO</button>
+    <button type="button" class="btn btn-default" data-dismiss="modal" id="yes" onclick="increaseLevelPts()">YES</button>
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade myModalInfo" id="myModal" role="dialog">
+    <div class="modal-dialog" id="modal-dialog-info">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center">Simon Game</h4>
+        </div>
+        <div class="modal-body">
+          <p id="infoMsg"></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<div id="author">
+  <p>designed by <a href="https://github.com/charlesBak" target="_blank" id="name">Charles<a></p>
+</div>
+
+</div><!--  window -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>
