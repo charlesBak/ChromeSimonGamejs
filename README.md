@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="![Simon Game Pic](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG)"/>
-</p>
+-> ![Simon Game Pic](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG) <-
 
 
 
