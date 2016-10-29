@@ -1,4 +1,4 @@
--> ![Simon Game Pic](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG) <-
+>![Simon Game Pic](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG)
 
 
 
