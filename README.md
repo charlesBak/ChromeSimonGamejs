@@ -1,8 +1,10 @@
  Google Chrome Simon Game 
 =======================
-![Simon Game Pic](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG)
+[![](https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG)](http://codepen.io/charlesB/full/WGmmpN/)
 
+Play [Simon] (http://codepen.io/charlesB/full/WGmmpN/)
 
-A Pen created at CodePen.io. You can find this one at http://codepen.io/charlesB/pen/WGmmpN.
+Google Chrome Simon is inspired by the famous electronic game of memory Simon. I designed the game based on the logo of Google Chrome
+to give it a personal style.  
 
  
