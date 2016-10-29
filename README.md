@@ -1,3 +1,6 @@
+Google Chrome Simon Game 
+=======================
+
 <p align="center">
   <img src="https://github.com/charlesBak/Google-Chrome-Simon-Gamejs/blob/master/img/simon1.JPG">
 </p>
